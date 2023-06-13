@@ -1,0 +1,13 @@
+name: Delivery-Diff Pods 2-4
+
+
+on:
+  workflow_dispatch:
+    inputs:
+      egp_file:
+        description: "Relative path of the .egp file to diff"
+        required: true
+      source_folder:
+        description: "The source folder to diff"
+        required:true
+
