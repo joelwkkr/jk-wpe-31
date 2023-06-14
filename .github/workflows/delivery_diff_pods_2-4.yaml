@@ -19,10 +19,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install unzip
+      - name: Install utils
         run: |
           sudo apt-get update
-          sudo apt-get-install unzip
+          sudo apt-get install unzip
+          sudo apt-get install diffutils
 
       - name: Unzip .egp file
         run: |
