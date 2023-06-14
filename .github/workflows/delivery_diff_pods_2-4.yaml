@@ -9,7 +9,7 @@ on:
         required: true
       source_folder:
         description: "The source folder to diff"
-        required:true
+        required: true
 
 
 jobs:
