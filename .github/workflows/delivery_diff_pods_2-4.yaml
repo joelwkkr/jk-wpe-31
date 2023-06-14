@@ -22,7 +22,7 @@ jobs:
       - name: Install unzip
         run: |
           sudo apt-get update
-          sudo apt-get-install unzip
+          sudo apt-get install unzip
 
       - name: Unzip .egp file
         run: |
