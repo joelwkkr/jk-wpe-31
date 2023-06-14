@@ -23,6 +23,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install unzip
+          
+      - name: Update Diff
+        run: sudo apt-get install diff
 
       - name: Unzip .egp file
         run: |
